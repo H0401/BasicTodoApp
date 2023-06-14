@@ -1,0 +1,19 @@
+.header{
+    background-color: black;
+    color: white;
+    height: 86px;
+}
+.list{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 3rem;
+}
+.todo-input{
+    outline: 1px solid blue;
+    border-radius: 2px;
+}
+.todo-input:focus{
+    outline: 1px solid red;
+}
